@@ -1716,6 +1716,11 @@ input, select, textarea {
 		padding-left: 1em;
 	}
 
+		ul.list-unstyled {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
 		ul li {
 			padding-left: 0.5em;
 		}
