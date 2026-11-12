@@ -1,0 +1,19 @@
+{% comment %}One news entry. Params: item, compact (true on the home page){% endcomment %}
+{% assign n = include.item %}
+<li class="news-item">
+  <p class="news-item__date">{{ n.date | default: "&nbsp;" }}</p>
+  <div class="news-item__body">
+    <h3>{% if n.link %}<a href="{{ n.link }}">{{ n.title }}</a>{% else %}{{ n.title }}{% endif %}</h3>
+    {% if n.text %}<p>{{ n.text }}</p>{% endif %}
+    {% unless include.compact %}
+    {% if n.images %}
+    <div class="news-item__images">
+      {% for img in n.images %}<a href="{{ '/images/' | append: img | relative_url }}"><img src="{{ '/images/' | append: img | relative_url }}" alt="" loading="lazy"></a>{% endfor %}
+    </div>
+    {% endif %}
+    {% if n.tweet %}
+    <blockquote class="twitter-tweet" data-dnt="true"><a href="{{ n.tweet }}">See the post on Twitter</a></blockquote>
+    {% endif %}
+    {% endunless %}
+  </div>
+</li>

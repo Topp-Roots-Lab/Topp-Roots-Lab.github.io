@@ -1,0 +1,121 @@
+# Lab news, newest first. Shown on the News page; the first few also appear on the home page.
+#
+# To add an item, put a new block at the TOP of this list:
+#   title:  the headline (required)
+#   date:   "March 2024" or "2024" (optional but recommended)
+#   text:   a sentence or two of detail (optional)
+#   link:   a paper, DOI or web page to point to (optional)
+#   images: list of file names inside images/ (optional)
+#   tweet:  address of a Twitter/X post to embed (optional)
+
+- title: Chris, Kong, and Marcus all present at ISRR 2024 conference in Leipzig!
+  date: "2024"
+
+- title: Paper out on maize root front velocity in Crop Science journal co-authored by Gus and Chris
+  date: March 2024
+  tweet: https://twitter.com/crop_science/status/1769764701989179765
+
+- title: Paper accepted in Plant & Soil on root traits and cover crops!
+  link: https://doi.org/10.1007/s11104-023-06431-7
+
+- title: Amelia, Gus, Alex, Kong, Sumeet & Cody all present at Tri-Societies 2023 meeting!
+  date: "2023"
+  images:
+    - Amelia_Moran_Trisocieties_2023_meeting_presenter.jpg
+    - Alex_Liu_Trisocieties_2023_meeting_presenter.jpg
+    - Kong_Wong_Trisocieties_2023_meeting_presenter.jpg
+    - Cody_Bagnall_Trisocieties_2023_meeting_presenter.jpg
+
+- title: Hosting Yusaku Uga and Takanari Tanabata visiting the lab and Danforth Center!
+  date: October 2023
+  tweet: https://twitter.com/UgaZaku/status/1709422382941954502
+
+- title: Welcome lab member Sourabh and Margaret
+  text: Fond farewells to Vannessa and Mohammed!
+  date: "2023"
+
+- title: Michelle & Kong present at ASPB 2023 meeting!
+  date: "2023"
+  images:
+    - Michelle_Cho_ASPB_2023_presenter.jpg
+    - Kong_Wong_ASPB_2023_presenter.jpg
+
+- title: Alex presents at 2023 IPREP/IPREFER joint pennycress meeting!
+  date: "2023"
+  images:
+    - Alex_Liu_IPREP_meeting_presenter.jpg
+
+- title: Antonio presents named 2023 NAPB George Washington Carver Scholar with a poster at the NAPB, National Association of Plant Breeders conference!
+  date: "2023"
+  images:
+    - Antonio_2023_NAPB.png
+
+- title: Keith presents at MNM meeting!
+  date: July 2023
+  tweet: https://twitter.com/CygnusPlantXray/status/1683882843980562433
+
+- title: Clara & Keith invited talks at ToScA conference in Austin!
+  date: May 2023
+  tweet: https://twitter.com/CygnusPlantXray/status/1661098468704698368
+
+- title: Antonio was just informed he received a National Association of Plant Breeders Carver Scholars Fellowship. Congratulations!
+  date: "2023"
+
+- title: Welcome lab members Sarah, Tanner, Vanessa
+  text: Fond farewells to Andrea and Nida!
+  date: "2023"
+
+- title: Cover crop project has been harvested at DDPSC Fischer field site!
+  date: "2023"
+  images:
+    - Covercrop_harvest_Fischer_2023.png
+
+- title: Talk selection at ASPB for Kong and Michelle!
+  date: "2023"
+
+- title: Cover crop pre-print now out!
+  date: "2023"
+  link: https://doi.org/10.21203/rs.3.rs-2649846/v1
+
+- title: Awarded USDA Smart Commodities grant to study hemp
+  date: "2023"
+
+- title: Gus presents at Maize Meeting 2023, Alex & Michelle present lightning talks!
+  date: "2023"
+  images:
+    - August_Theis_Maize_meeting_presenter.jpg
+    - Alex_Liu_Maize_meeting_lightning_presenter.jpg
+
+- title: X-ray microscopy on the cover!
+  date: May 2023
+  tweet: https://twitter.com/CygnusPlantXray/status/1653490222867390467
+
+- title: Topp lab host root phenotyping workshop at NAPPN2023
+  date: February 2023
+  tweet: https://twitter.com/marcusdgriff/status/1627360560445636609
+
+- title: Pre-print out on pennycress
+  date: January 2023
+  tweet: https://twitter.com/marcusdgriff/status/1615501957644562432
+
+- title: Keith in Chicago for AGU22
+  date: December 2022
+  tweet: https://twitter.com/CygnusPlantXray/status/1601701100805328896
+
+- title: Chris presented at Rootomics workshop in japan
+  date: October 2022
+  tweet: https://twitter.com/rootomics/status/1579291029270048768
+
+- title: Cover for August edition of Plant Methods!
+  date: August 2022
+  link: https://doi.org/10.1007/978-1-0716-2537-8
+  images:
+    - cover-august-2022.png
+
+- title: Review out on root traits and ecosystem service in Plant Cell Environment
+  date: January 2022
+  tweet: https://twitter.com/marcusdgriff/status/1486157284271173636
+
+- title: Research paper out in Plant Physiology on spatial transcriptomics and 3D imaging
+  date: November 2021
+  tweet: https://twitter.com/PlantPhys/status/1461738936414445575

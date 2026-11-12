@@ -1,0 +1,25 @@
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M3 9h26" /><path d="M16 4v8c0 5-6 6-8 12M16 12c0 5 6 6 8 12M16 12v16" /></svg>
+      <span>{{ site.title }}</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+        {% for item in site.data.navigation %}
+        <li{% if item.children %} class="has-children"{% endif %}>
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% if item.children %}
+          <ul>
+            {% for child in item.children %}
+            <li><a href="{{ child.url | relative_url }}"{% if page.url == child.url %} aria-current="page"{% endif %}>{{ child.title }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

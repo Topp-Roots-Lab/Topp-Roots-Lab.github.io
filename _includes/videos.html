@@ -1,0 +1,12 @@
+{% comment %}Grid of Vimeo animations. Params: set (a key in _data/videos.yml){% endcomment %}
+<ul class="video-grid">
+  {% for v in site.data.videos[include.set] %}
+  <li>
+    <div class="video" style="padding-top: {{ v.ratio }}%">
+      <iframe src="https://player.vimeo.com/video/{{ v.id }}?h={{ v.hash }}&amp;loop=1&amp;autoplay=1&amp;muted=1&amp;badge=0&amp;autopause=0" title="{{ v.title | escape }}" loading="lazy" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <h3>{{ v.title }}</h3>
+    {% if v.text %}<p>{{ v.text }}</p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>

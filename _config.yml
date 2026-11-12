@@ -1,0 +1,30 @@
+# Site settings — edit these, then commit. GitHub Pages rebuilds the site automatically.
+title: Topp Roots Lab
+tagline: Root genetics & phenotyping lab
+description: >-
+  The Topp lab at the Donald Danforth Plant Science Center studies root biology
+  with X-ray imaging, phenomics and genetics to enhance sustainable crop production.
+url: https://topp-roots-lab.github.io
+baseurl: ""
+
+# Contact details used in the header, footer and Join page
+pi_name: Christopher Topp
+email_display: ctopp at danforthcenter.org
+email: CTopp@danforthcenter.org
+institution: Donald Danforth Plant Science Center
+address: 975 N Warson Rd, St. Louis, MO 63132
+map_url: https://www.google.com/maps/dir/?api=1&destination=38.674333,-90.3971893
+twitter_url: https://twitter.com/RootDevo
+scholar_url: https://scholar.google.com/citations?user=-L6lz1IAAAAJ
+github_url: https://github.com/Topp-Roots-Lab
+repo_url: https://github.com/Topp-Roots-Lab/Topp-Roots-Lab.github.io
+
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
