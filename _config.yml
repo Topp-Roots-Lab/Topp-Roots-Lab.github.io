@@ -5,7 +5,7 @@ description: >-
   The Topp lab at the Donald Danforth Plant Science Center studies root biology
   with X-ray imaging, phenomics and genetics to enhance sustainable crop production.
 url: https://topp-roots-lab.github.io
-baseurl: ""
+baseurl: "/Topp-Roots-Lab.github.io"
 
 # Contact details used in the header, footer and Join page
 pi_name: Christopher Topp
