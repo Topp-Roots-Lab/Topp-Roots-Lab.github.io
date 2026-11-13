@@ -4,5 +4,5 @@
 <img class="avatar" src="{{ '/images/headshots/' | append: include.person.photo | relative_url }}" alt="{{ avatar_name | escape }}" width="640" height="640" loading="lazy">
 {% else %}
 {% assign avatar_words = avatar_name | split: " " %}
-<div class="avatar avatar--initials" role="img" aria-label="{{ avatar_name | escape }}"><span>{% for w in avatar_words limit: 2 %}{{ w | slice: 0 }}{% endfor %}</span></div>
+<div class="avatar avatar--initials" role="img" aria-label="{{ avatar_name | escape }}"><span>{{ avatar_words | first | slice: 0 }}{% if avatar_words.size > 1 %}{{ avatar_words | last | slice: 0 }}{% endif %}</span></div>
 {% endif %}

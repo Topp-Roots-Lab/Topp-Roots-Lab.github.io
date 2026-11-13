@@ -14,6 +14,7 @@ Most content lives in plain-text lists in the `_data/` folder. Each file starts 
 | Add a news item                    | `_data/news.yml` (add a block at the top)       |
 | Add a publication                  | `_data/publications.yml` (newest first)         |
 | Add or update a lab member         | `_data/members.yml`                             |
+| Danforth Center team section       | `_data/danforth_team.yml`                       |
 | Move someone to former members     | cut from `_data/members.yml`, add to `_data/alumni.yml` |
 | Add a tool or a dataset            | `_data/tools.yml`, `_data/datasets.yml`         |
 | Update grants or research areas    | `_data/grants.yml`, `_data/research_areas.yml`  |

@@ -5,5 +5,6 @@
   <h3 class="member__name">{{ p.name }}</h3>
   <p class="member__role">{{ p.role }}</p>
   {% if p.blurb %}<p class="member__blurb">{{ p.blurb }}</p>{% endif %}
-  <p class="member__meta">{% if p.joined %}Joined {{ p.joined }}{% endif %}{% if p.link %}{% if p.joined %} &nbsp;|&nbsp; {% endif %}<a href="{% if p.link contains '://' %}{{ p.link }}{% else %}{{ p.link | relative_url }}{% endif %}">{{ p.link_label | default: "More" }}<span class="visually-hidden">: {{ p.name }}</span></a>{% endif %}</p>
+  {% if p.email %}<p class="member__meta"><a href="mailto:{{ p.email }}">{{ p.email }}</a></p>{% endif %}
+  {% if p.joined or p.link %}<p class="member__meta">{% if p.joined %}Joined {{ p.joined }}{% endif %}{% if p.link %}{% if p.joined %} &nbsp;|&nbsp; {% endif %}<a href="{% if p.link contains '://' %}{{ p.link }}{% else %}{{ p.link | relative_url }}{% endif %}">{{ p.link_label | default: "More" }}<span class="visually-hidden">: {{ p.name }}</span></a>{% endif %}</p>{% endif %}
 </li>

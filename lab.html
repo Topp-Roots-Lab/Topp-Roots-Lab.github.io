@@ -6,11 +6,13 @@ wide: true
 ---
 <section class="pi">
   <div class="pi__card">
-    <a href="https://www.danforthcenter.org/our-work/principal-investigators/christopher-topp/" tabindex="-1" aria-hidden="true"><img class="avatar" src="{{ '/images/headshots/chris-topp.png' | relative_url }}" alt="Chris Topp" width="640" height="640"></a>
+    <img class="avatar" src="{{ '/images/headshots/chris-topp.png' | relative_url }}" alt="Chris Topp" width="640" height="640">
     <div>
       <h2>Chris Topp</h2>
-      <p>Associate Member &amp; PI at DDPSC</p>
-      <p><a href="https://www.danforthcenter.org/our-work/principal-investigators/christopher-topp/">Bio<span class="visually-hidden">: Chris Topp</span></a></p>
+      <p>Principal Investigator</p>
+      <p>MSU Research Foundation Distinguished Professor<br>Plant Resilience Institute; Departments of Plant Biology and Plant, Soil and Microbial Sciences</p>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p><a href="https://plantresilience.msu.edu/pri-news/2025-10-chris-topp-puts-down-roots-at-msu-joins-pri.aspx">About Chris joining MSU</a></p>
     </div>
   </div>
   <div class="pi__values prose">
@@ -19,15 +21,21 @@ wide: true
   </div>
 </section>
 
-<img class="figure-wide" src="{{ '/images/topp-lab-photo_2025.jpg' | relative_url }}" alt="The Topp lab team in 2025" width="3000" height="2000">
-
 <section>
   <h2>Lab members</h2>
   <ul class="member-grid">
     {% for person in site.data.members %}
     {% include member-card.html person=person %}
     {% endfor %}
-    {% for person in site.data.friends %}
+  </ul>
+</section>
+
+<section>
+  <h2>Danforth Center team</h2>
+  <p class="section-note">The lab's team at the Donald Danforth Plant Science Center in St. Louis, its home before moving to Michigan State University in January 2026.</p>
+  <img class="figure-wide" src="{{ '/images/topp-lab-photo_2025.jpg' | relative_url }}" alt="The Topp lab team at the Danforth Center in 2025" width="3000" height="2000" loading="lazy">
+  <ul class="member-grid mt">
+    {% for person in site.data.danforth_team %}
     {% include member-card.html person=person %}
     {% endfor %}
   </ul>
