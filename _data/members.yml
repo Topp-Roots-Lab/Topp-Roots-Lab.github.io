@@ -1,4 +1,5 @@
-# Current lab members at Michigan State University, shown on the Team page (lab.html) in this order.
+# Current lab members, shown on the Team page (lab.html) in this order
+# (roughly by when they joined; move blocks up or down to reorder).
 # (The PI is written directly in lab.html.)
 #
 # To add someone, copy a block and edit it:
@@ -7,15 +8,59 @@
 #   joined: year or "August 2023" (optional)
 #   blurb:  one or two sentences on what they do (optional)
 #   photo:  file name inside images/headshots/ (optional — initials are shown without it)
-#   email:  shown publicly as a link — only add it if the person wants it listed (optional)
+#   email:  shown publicly, written as "name at msu.edu" — only add it if the person wants it listed (optional)
 #   link:   profile page such as /profile/sourabh-palande.html, or an outside website (optional)
 #   link_label: text for that link, e.g. "Bio" or "Website"
 #
 # When someone leaves, move them to _data/alumni.yml.
 
-- name: Katherine Naasko
-  role: Lab Manager
-  email: naaskoka@msu.edu
+- name: Keith Duncan
+  role: Research Scientist
+  joined: 2016
+  blurb: Manager X-ray imaging facility, 30 years microscopy and imaging of plant biology, old guy.
+  photo: keith-duncan.png
+  link: /profile/keith-duncan.html
+  link_label: Bio
+
+- name: Gus Thies
+  role: Graduate Student, Mizzou
+  joined: 2018
+  blurb: X-ray imaging, image segmentation & analysis, proficient in R & Python, biological modeling, plant care, VR.
+  photo: august-thies.png
+
+- name: Shayla Gunn
+  role: Research Associate
+  joined: 2018
+  blurb: Light/Fluorescence Microscopy, X-ray/2D imaging, molecular wet lab techniques, background in plant stress physiology/nanotoxicology, general fast learner.
+  photo: shayla-gunn.png
+
+- name: Michelle Cho
+  role: Graduate Student, WUSTL
+  joined: 2020
+  photo: michelle-cho.png
+
+- name: Alex Liu
+  role: Postdoctoral Associate
+  joined: 2021
+  photo: alex-liu.png
+
+- name: Sumeet Mankar
+  role: Research Scientist
+  joined: 2021
+  blurb: PhD.
+  photo: sumeet-mankar.png
+
+- name: Clara Lebow
+  role: Senior Laboratory Technician
+  joined: 2022
+  photo: clara-lebow.png
+
+- name: Molly Hanlon
+  role: Sr. Research Scientist
+  joined: 2022
+  photo: molly-hanlon.png
+  link: https://www.mollyhanlon.com
+  link_label: Website
 
 - name: Sourabh Palande
   role: Data Scientist
@@ -25,6 +70,46 @@
   link: /profile/sourabh-palande.html
   link_label: Bio
 
+- name: Eileen Kosola
+  role: Laboratory Assistant
+  joined: 2023
+
+- name: Doris McCarter
+  role: Laboratory Assistant
+  joined: 2023
+
+- name: Lizzy Straton
+  role: Laboratory Assistant
+  joined: 2025
+
+- name: Sarah Nuzzie
+  role: Laboratory Assistant
+  joined: 2025
+
+- name: Ryliee Meek
+  role: Laboratory Assistant
+  joined: 2025
+
+- name: Donovan Lewis
+  role: Laboratory Assistant
+  joined: 2025
+
+- name: Justin Dobry
+  role: Laboratory Assistant
+  joined: 2025
+
+- name: Kristen Hein
+  role: Postdoctoral Associate
+  joined: 2025
+
+- name: Bharath Kunduru
+  role: Postdoctoral Researcher
+  joined: 2025
+
+- name: Katherine Naasko
+  role: Lab Manager
+  email: naaskoka@msu.edu
+
 - name: Maria Soto
   role: Project Administrator
 
@@ -33,10 +118,6 @@
 
 - name: Oluwaseye (Gideon) Oyebode
   role: Postdoctoral Researcher
-
-- name: Bharath Kunduru
-  role: Postdoctoral Researcher
-  joined: 2025
 
 - name: Janine Mantilla
   role: Rotating Graduate Student
@@ -70,3 +151,10 @@
 
 - name: Gagan Anandan
   role: Student Research Assistant
+
+- name: Mao Li
+  role: Special friend of the lab & Principal Investigator at DDPSC
+  blurb: Mathematical modelling. PhD.
+  photo: mao-li.png
+  link: https://www.danforthcenter.org/our-work/principal-investigators/mao-li/
+  link_label: Website

@@ -5,37 +5,31 @@ permalink: /lab.html
 wide: true
 ---
 <section class="pi">
-  <div class="pi__card">
-    <img class="avatar" src="{{ '/images/headshots/chris-topp.png' | relative_url }}" alt="Chris Topp" width="640" height="640">
-    <div>
-      <h2>Chris Topp</h2>
-      <p>Principal Investigator</p>
-      <p>MSU Research Foundation Distinguished Professor<br>Plant Resilience Institute; Departments of Plant Biology and Plant, Soil and Microbial Sciences</p>
-      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-      <p><a href="https://plantresilience.msu.edu/pri-news/2025-10-chris-topp-puts-down-roots-at-msu-joins-pri.aspx">About Chris joining MSU</a></p>
-    </div>
-  </div>
-  <div class="pi__values prose">
-    <h2>Values</h2>
-    <p>The Topp Lab is a unique group of people brought together by our desire to make a difference in the world through our science. Our core values represent the organization that we strive to be.</p>
+  <img class="pi__photo" src="{{ '/images/headshots/chris-topp.png' | relative_url }}" alt="Chris Topp" width="640" height="640">
+  <div class="pi__text">
+    <h2>Chris Topp</h2>
+    <p class="pi__role">Principal Investigator</p>
+    <ul class="pi__facts">
+      <li>MSU Research Foundation Distinguished Professor</li>
+      <li>Plant Resilience Institute</li>
+      <li>Departments of Plant Biology and Plant, Soil and Microbial Sciences</li>
+      <li>Michigan State University</li>
+    </ul>
+    <p class="pi__contact">{{ site.email_display }}<br><a href="https://plantresilience.msu.edu/pri-news/2025-10-chris-topp-puts-down-roots-at-msu-joins-pri.aspx">About Chris joining MSU</a></p>
   </div>
 </section>
+
+<section class="prose">
+  <h2>Values</h2>
+  <p>The Topp Lab is a unique group of people brought together by our desire to make a difference in the world through our science. Our core values represent the organization that we strive to be.</p>
+</section>
+
+<img class="figure-wide" src="{{ '/images/topp-lab-photo_2025.jpg' | relative_url }}" alt="The Topp lab team in 2025" width="3000" height="2000" loading="lazy">
 
 <section>
   <h2>Lab members</h2>
   <ul class="member-grid">
     {% for person in site.data.members %}
-    {% include member-card.html person=person %}
-    {% endfor %}
-  </ul>
-</section>
-
-<section>
-  <h2>Danforth Center team</h2>
-  <p class="section-note">The lab's team at the Donald Danforth Plant Science Center in St. Louis, its home before moving to Michigan State University in January 2026.</p>
-  <img class="figure-wide" src="{{ '/images/topp-lab-photo_2025.jpg' | relative_url }}" alt="The Topp lab team at the Danforth Center in 2025" width="3000" height="2000" loading="lazy">
-  <ul class="member-grid mt">
-    {% for person in site.data.danforth_team %}
     {% include member-card.html person=person %}
     {% endfor %}
   </ul>
