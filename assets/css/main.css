@@ -159,6 +159,7 @@ ul[class], ol[class] { list-style: none; padding: 0; margin: 0; }
 .prose ul:not([class]), .prose ol:not([class]) { padding-left: 1.3rem; }
 .prose li { margin-bottom: 0.4em; }
 .figure-wide { width: 100%; border-radius: var(--radius); }
+.section-note { max-width: 44rem; color: var(--muted); }
 
 .media-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
 .media-row img { width: 100%; border-radius: var(--radius); }
@@ -211,7 +212,8 @@ ul[class], ol[class] { list-style: none; padding: 0; margin: 0; }
 .pi { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; margin-bottom: clamp(2rem, 4vw, 3rem); }
 .pi__card { display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: 1.25rem; align-items: center; }
 .pi__card h2 { margin-bottom: 0.2em; }
-.pi__card p { margin: 0; }
+.pi__card p { margin: 0 0 0.35rem; font-size: 1rem; line-height: 1.45; }
+.member__meta a { overflow-wrap: anywhere; }
 .page-body .pi h2 { border: 0; padding: 0; margin-bottom: 0.4rem; }
 @media (max-width: 52rem) { .pi { grid-template-columns: 1fr; } }
 @media (max-width: 34rem) { .member-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.75rem 1rem; } }
