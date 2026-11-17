@@ -15,7 +15,7 @@ wide: true
       <li>Departments of Plant Biology and Plant, Soil and Microbial Sciences</li>
       <li>Michigan State University</li>
     </ul>
-    <p class="pi__contact">{{ site.email_display }}<br><a href="https://plantresilience.msu.edu/pri-news/2025-10-chris-topp-puts-down-roots-at-msu-joins-pri.aspx">About Chris joining MSU</a></p>
+    <p class="pi__contact">{{ site.email_display }}<br><a href="https://plantresilience.msu.edu/pri-news/2025-10-chris-topp-puts-down-roots-at-msu-joins-pri.aspx">About Dr. Topp joining MSU</a></p>
   </div>
 </section>
 
@@ -40,7 +40,7 @@ wide: true
   <ul class="alumni-list">
     {% for a in site.data.alumni %}
     <li>
-      <span class="alumni-list__name">{% if a.profile %}<a href="{{ a.profile | relative_url }}">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}</span>
+      <span class="alumni-list__name">{% if a.profile %}<a href="{% if a.profile contains '://' %}{{ a.profile }}{% else %}{{ a.profile | relative_url }}{% endif %}">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}</span>
       <span class="alumni-list__years">{{ a.years }}</span>
       <span class="alumni-list__next">{{ a.next }}</span>
     </li>

@@ -1,11 +1,17 @@
 # Former lab members, shown on the Team page (lab.html) in this order.
 # Fields: name (required), years, next (what they did next), profile (optional link)
+- name: Mao Li
+  years: 
+  next: 
 - name: Adam Bray
   years: 2017–2020
   next: Wheat Product Development Scientist @ Bayer
 - name: Aimee Schulz
   years: '2018'
   next: Graduate Research Assistant @ Cornell University
+- name: Alex Liu
+  years:  # joined 2021; fill in e.g. 2021–2026
+  next:
 - name: Alicia Zhang
   years: 2019–2020
   next: Graduate Research Assistant @ Boston University
@@ -21,9 +27,15 @@
 - name: Benjamin Laws
   years: 2015–2019
   next: Military Medic
+- name: Bharath Kunduru
+  years:  # joined 2025; fill in e.g. 2025–2026
+  next:
 - name: Christine Mitchell
   years: 2018–2019
   next: Senior Scientist @ Inotiv
+- name: Clara Lebow
+  years:  # joined 2022; fill in e.g. 2022–2026
+  next:
 - name: Cody Bagnall
   years: 2021–2025
   next: Director of Field Site DDPSC
@@ -34,6 +46,12 @@
 - name: Dhineshkumar Thiruppathi
   years: 2018–2022
   next: Cell & Molecular Biology Scientist /Research Scientist @ Bayer
+- name: Donovan Lewis
+  years:  # joined 2025; fill in e.g. 2025–2026
+  next:
+- name: Doris McCarter
+  years:  # joined 2023; fill in e.g. 2023–2026
+  next:
 - name: Dylan Fritz
   years: '2023'
   next: Undergraduate Student at Missouri S&T
@@ -42,6 +60,9 @@
   next: Assistant Scientist @ Pharmaceutical Product Development (PPD)
 - name: Effia Nuako
   years: '2019'
+- name: Eileen Kosola
+  years:  # joined 2023; fill in e.g. 2023–2026
+  next:
 - name: Elisa Morales
   years: 2018–2022
   next: IP Development @ Danforth Plant Science Center
@@ -54,6 +75,9 @@
 - name: Gabriella Pflederer
   years: '2020'
   next: Systems Engineering Co-op, bioMérieux
+- name: Gus Thies
+  years:  # joined 2018; fill in e.g. 2018–2026
+  next:
 - name: Hannah Deadwyler
   years: 2023–2024
   next: Laboratory Assistant
@@ -66,6 +90,9 @@
 - name: Jenna Carter
   years: 2022–2024
   next: Laboratory Technician
+- name: Justin Dobry
+  years:  # joined 2025; fill in e.g. 2025–2026
+  next:
 - name: Kari Miller
   years: 2016–2017
   next: Biotech Equity Research Fellow @ Kennedy Capital Management
@@ -73,6 +100,10 @@
   years: '2020'
   next: Recycling internship
 - name: Kasia Kornacki
+- name: Keith Duncan
+  years:  # joined 2016; fill in e.g. 2016–2026
+  next:
+  profile: /profile/keith-duncan.html
 - name: Kenan Oestreich
   years: 2022–2024
   next: Data Scientist @ WashU medical
@@ -81,7 +112,13 @@
   years: 2021–2025
   next: PI @ Virginia Tech
   profile: /profile/kong-wong.html
+- name: Kristen Hein
+  years:  # joined 2025; fill in e.g. 2025–2026
+  next:
 - name: Lee Douangkeomany
+- name: Lizzy Straton
+  years:  # joined 2025; fill in e.g. 2025–2026
+  next:
 - name: Marcus Griffiths
   years: 2021–2025
   next: Research Scientist, DDPSC
@@ -96,9 +133,16 @@
   next: PhD Candidate @ University of Georgia
 - name: Matthew Mosior
   next: Scientific Programmer @ Moffitt Cancer Center
+- name: Michelle Cho
+  years:  # joined 2020; fill in e.g. 2020–2026
+  next:
 - name: Mohammed Elgallad
   years: '2023'
   next: 2023 REU Internship Cohort
+- name: Molly Hanlon
+  years:  # joined 2022; fill in e.g. 2022–2026
+  next:
+  profile: https://www.mollyhanlon.com
 - name: Molly Wohl
   next: Software Engineer @ UW Medicine
 - name: Mon-Ray Shao
@@ -122,13 +166,25 @@
   next: Lab manager with Nusinow lab and Finance Dept @ DDPSC
 - name: Renee Dale
   next: Postdoctoral Associate, Baxter Lab
+- name: Ryliee Meek
+  years:  # joined 2025; fill in e.g. 2025–2026
+  next:
 - name: Sam McInturf
   years: '2020'
   next: Scientist @ CTC Genomics
+- name: Sarah Nuzzie
+  years:  # joined 2025; fill in e.g. 2025–2026
+  next:
 - name: Sarah Wilson
   years: 2023–2024
   next: PhD candidate @ Minnesota State University
   profile: /profile/sarah-wilson.html
+- name: Shayla Gunn
+  years:  # joined 2018; fill in e.g. 2018–2026
+  next:
+- name: Sumeet Mankar
+  years:  # joined 2021; fill in e.g. 2021–2026
+  next:
 - name: Tanner Smith
   years: 2022–2024
   next: Junior Specialist @ UC Davis
