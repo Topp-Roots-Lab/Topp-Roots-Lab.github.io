@@ -1,0 +1,25 @@
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <svg class="brand__mark" viewBox="3 4.5 26 26" aria-hidden="true"><path d="M6.5 7.5h19" stroke-width="3.2"/><path d="M16 7.5v7" stroke-width="3.2"/><path d="M16 14v14.5" stroke-width="2.2"/><path d="M16 12.5c-2.5 0.3-5 2-6 5" stroke-width="1.8"/><path d="M16 15.5c2.5 0.3 5 2 6 5" stroke-width="1.8"/><path d="M16 19c-2 0.3-4 1.7-4.8 4.2" stroke-width="1.7"/><path d="M16 22c1.800 0.300 3.400 1.500 4 3.600" stroke-width="1.6"/></svg>
+      <span>{{ site.title }}</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+        {% for item in site.data.navigation %}
+        <li{% if item.children %} class="has-children"{% endif %}>
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% if item.children %}
+          <ul>
+            {% for child in item.children %}
+            <li><a href="{{ child.url | relative_url }}"{% if page.url == child.url %} aria-current="page"{% endif %}>{{ child.title }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

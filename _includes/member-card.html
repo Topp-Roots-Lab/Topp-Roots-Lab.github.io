@@ -1,0 +1,10 @@
+{% comment %}One person on the Team page. Params: person{% endcomment %}
+{% assign p = include.person %}
+<li class="member">
+  {% if p.link %}<a class="member__photo" href="{% if p.link contains '://' %}{{ p.link }}{% else %}{{ p.link | relative_url }}{% endif %}" tabindex="-1" aria-hidden="true">{% include avatar.html person=p %}</a>{% else %}<div class="member__photo">{% include avatar.html person=p %}</div>{% endif %}
+  <h3 class="member__name">{{ p.name }}</h3>
+  <p class="member__role">{{ p.role }}</p>
+  {% if p.blurb %}<p class="member__blurb">{{ p.blurb }}</p>{% endif %}
+  {% if p.email %}<p class="member__meta">{{ p.email | replace: "@", " at " }}</p>{% endif %}
+  {% if p.joined or p.link %}<p class="member__meta">{% if p.joined %}Joined {{ p.joined }}{% endif %}{% if p.link %}{% if p.joined %} &nbsp;|&nbsp; {% endif %}<a href="{% if p.link contains '://' %}{{ p.link }}{% else %}{{ p.link | relative_url }}{% endif %}">{{ p.link_label | default: "More" }}<span class="visually-hidden">: {{ p.name }}</span></a>{% endif %}</p>{% endif %}
+</li>

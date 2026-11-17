@@ -1,0 +1,326 @@
+# Publications, newest first. The Papers page groups them by year and makes them searchable.
+#
+# To add one, put a new block at the top of its year:
+#   title, authors, year, venue (journal or book)  — required
+#   url      link to the paper (usually https://doi.org/...)
+#   doi      the DOI on its own, e.g. 10.1002/csc2.21208
+#   preprint: true   — only for pre-prints
+
+- title: Do newer maize hybrids grow roots faster and deeper?
+  authors: Sciarres C, Thies A, Topp CN, Eudy D, Trifunovic S, Ruiz A, Dixon PM, Miguez F, Burras LC & Archontoulis SV
+  year: 2024
+  venue: Crop Science
+  url: https://doi.org/10.1002/csc2.21208
+  doi: 10.1002/csc2.21208
+- title: Cover crop cultivars and species differ in root traits potentially impacting their selection for ecosystem services
+  authors: Wong, K.M.*, Griffiths, M.*, Moran A, Johnston, A., Liu, A.E., Sellers, M.A., & Topp, C.N.
+  year: 2023
+  venue: Plant and Soil
+  url: https://doi.org/10.1007/s11104-023-06431-7
+  doi: 10.1007/s11104-023-06431-7
+- title: A temporal analysis and response to nitrate availability of 3D root system architecture in diverse pennycress (Thlaspi arvense L.) accessions
+  authors: Griffiths, M., Liu, E.A., Gunn, S.L., Mutan, N.M., Morales, E.Y. & Topp, C.N.
+  year: 2023
+  venue: Frontiers in Plant Science
+  url: https://doi.org/10.3389/fpls.2023.1145389
+  doi: 10.3389/fpls.2023.1145389
+- title: Realizing the Full Potential of Advanced Microscopy Approaches for Interrogating Plant-Microbe Interactions
+  authors: Czymmek, K., Duncan, K.E., & Berg, H.
+  year: 2023
+  venue: MPMI
+  url: https://doi.org/10.1094/MPMI-10-22-0208-FI
+  doi: 10.1094/MPMI-10-22-0208-FI
+- title: Grain shattering by cell death and fracture in Eragrostis tef
+  authors: Yu, Y., Beyene, G., Villmer, J., Duncan, K.E., Hu, Hao., Johnson, T., Doust, A.N., Taylor, N.J., & Kellogg, E.A.
+  year: 2023
+  venue: Plant Physiology, kiad079
+  url: https://doi.org/10.1093/plphys/kiad079
+  doi: 10.1093/plphys/kiad079
+- title: Phenotyping Complex Plant Structures with a Large Format Industrial Scale High-Resolution X-Ray Tomography Instrument
+  authors: Duncan, K.E., & Topp, C.N.
+  year: 2022
+  venue: 'In: Lorence, A., Medina Jimenez, K. (eds) High-Throughput Plant Phenotyping. Methods in Molecular Biology, vol 2539. Humana, New York, NY'
+  url: https://doi.org/10.1007/978-1-0716-2537-8_12
+  doi: 10.1007/978-1-0716-2537-8_12
+- title: Root system architecture and environmental flux analysis in mature crops using 3D root mesocosms
+  authors: Dowd, T. G., Li, M., Bagnall, G. C., Johnston, A., & Topp, C. N.
+  year: 2022
+  venue: Frontiers in Plant Science
+  url: https://doi.org/10.3389/fpls.2022.1041404
+  doi: 10.3389/fpls.2022.1041404
+- title: 'Optimisation of root traits to provide enhanced ecosystem services in agricultural systems: A focus on cover crops'
+  authors: Griffiths, M., Delory, B. M., Jawahir, V., Wong, K. M., Bagnall, G. C., Dowd, T. G., Nusinow, D. A., Miller, A. J., & Topp, C. N.
+  year: 2022
+  venue: Plant, Cell & Environment
+  url: https://doi.org/10.1111/pce.14247
+  doi: 10.1111/pce.14247
+- title: 'Organizing your space: The potential for integrating spatial transcriptomics and 3D imaging data in plants'
+  authors: Cox Jr, K. L., Gurazada, S. G. R., Duncan, K. E., Czymmek, K. J., Topp, C. N., & Meyers, B. C.
+  year: 2022
+  venue: Plant Physiology
+  url: https://doi.org/10.1093/plphys/kiab508
+  doi: 10.1093/plphys/kiab508
+- title: A versatile enhanced freeze-substitution protocol for volume electron microscopy
+  authors: Bélanger, S., Berensmann, H., Baena, V., Duncan, K.E., Meyers, B.C., Narayan, K., & Czymmek, K.J.
+  year: 2022
+  venue: Frontiers in Cell and Developmental Biology
+  url: https://doi.org/10.3389/fcell.2022.933376
+  doi: 10.3389/fcell.2022.933376
+- title: X-ray microscopy enables multiscale high-resolution 3D imaging of plant cells, tissues, and organs
+  authors: Duncan, K. E., Czymmek, K. J., Jiang, N., Thies, A. C., & Topp, C. N.
+  year: 2021
+  venue: Plant Physiology
+  url: https://doi.org/10.1093/plphys/kiab405
+  doi: 10.1093/plphys/kiab405
+- title: Phenotyping seedlings for selection of root system architecture in alfalfa (Medicago sativa L.)
+  authors: Bucciarelli, B., Xu, Z., Ao, S., Cao, Y., Monteros, M. J., Topp, C. N., & Samac, D. A.
+  year: 2021
+  venue: Plant Methods
+  url: https://doi.org/10.1186/s13007-021-00825-3
+  doi: 10.1186/s13007-021-00825-3
+- title: 'TopoRoot: a method for computing hierarchy and fine-grained traits of maize roots from 3D imaging'
+  authors: Zeng, D., Li, M., Jiang, N., Ju, Y., Schreiber, H., Chambers, E., Letscher, D., Ju, T., & Topp, C. N.
+  year: 2021
+  venue: Plant Methods
+  url: https://doi.org/10.1186/s13007-021-00829-z
+  doi: 10.1186/s13007-021-00829-z
+- title: Complementary Phenotyping of Maize Root System Architecture by Root Pulling Force and X-Ray Imaging
+  authors: Shao, M. R., Jiang, N., Li, M., Howard, A., Lehner, K., Mullen, J. L., Gunn, S. L., McKay, J. K., & Topp, C. N.
+  year: 2021
+  venue: Plant Phenomics
+  url: https://doi.org/10.34133/2021/9859254
+  doi: 10.34133/2021/9859254
+- title: Introduction to emerging technologies in plant science
+  authors: Topp, C. N. & Jez, J. M.
+  year: 2021
+  venue: Emerg Top Life Sci
+  url: https://doi.org/10.1042/ETLS20200269
+  doi: 10.1042/ETLS20200269
+- title: 'Rated-M for mesocosm: allowing the multimodal analysis of mature root systems in 3D'
+  authors: Dowd, T., McInturf, S., Li, M., & Topp, C. N.
+  year: 2021
+  venue: Emerg Top Life Sci
+  url: https://doi.org/10.1042/ETLS20200278
+  doi: 10.1042/ETLS20200278
+- title: 'Imaging flowers: a guide to current microscopy and tomography techniques to study flower development'
+  authors: Prunet, N., & Duncan, K.E.
+  year: 2020
+  venue: Journal of Experimental Botany
+  url: https://doi.org/10.1093/jxb/eraa094
+  doi: 10.1093/jxb/eraa094
+- title: A statistical growth property of plant root architectures
+  authors: Sultan, S., Snider, J., Conn, A., Li, M., Topp, C. N., & Navlakha, S.
+  year: 2020
+  venue: Plant Phenomics
+  url: https://doi.org/10.34133/2020/2073723
+  doi: 10.34133/2020/2073723
+- title: Comprehensive 3D phenotyping reveals continuous morphological variation across genetically diverse sorghum inflorescences
+  authors: Li, M., Shao, M., Zeng, D., Ju, T., Kellogg, E. A. & Topp, C. N.
+  year: 2020
+  venue: New Phytologist
+  url: https://doi.org/10.1111/nph.16533
+  doi: 10.1111/nph.16533
+- title: 'Characterizing 3D inflorescence architecture in grapevine using X-ray imaging and advanced morphometrics: implications for understanding cluster density'
+  authors: Li, M., Klein, L. L., Duncan, K. E., Jiang, N., Chitwood, D. H., Londo, J. P., Miller, A. J. & Topp, C. N.
+  year: 2020
+  venue: Journal of Experimental Botany
+  url: https://doi.org/10.1093/jxb/erz394
+  doi: 10.1093/jxb/erz394
+- title: TRANSPORTER OF IBA1 links auxin and cytokinin to influence root architecture
+  authors: Michniewicz, M., Ho, C., Enders, T. A., Floro, E., Damodaran, S., Gunther, L. K., Powers, S. K., Frick, E. M., Topp, C. N., Frommer, W. B., & Strader, L. C.
+  year: 2019
+  venue: Developmental Cell
+  url: https://doi.org/10.1016/j.devcel.2019.06.010
+  doi: 10.1016/j.devcel.2019.06.010
+- title: Three-Dimensional Time-Lapse Analysis Reveals Multiscale Relationships in Maize Root Systems with Contrasting Architectures
+  authors: Jiang, N., Floro, E., Bray, A. L., Laws, B., Duncan, K. E., & Topp, C. N.
+  year: 2019
+  venue: The Plant Cell
+  url: https://doi.org/10.1105/tpc.19.00015
+  doi: 10.1105/tpc.19.00015
+- title: Convergent evolution of root system architecture in two independently evolved lineages of weedy rice
+  authors: Wedger, M. J., Topp, C. N. & Olsen, K. M.
+  year: 2019
+  venue: New Phytologist
+  url: https://doi.org/10.1111/nph.15791
+  doi: 10.1111/nph.15791
+- title: Stomatal conductance, xylem water transport, and root traits underpin improved performance under drought and well-watered conditions across a diverse panel of maize inbred lines
+  authors: Gleason, S. M., Cooper, M., Wiggans, D. R., Bliss, C. A., Romay, M. C., Gore, M. A., Mickelbart, M. V., Topp, C. N., Zhang, H., DeJonge, K. C., & Comas, L. H.
+  year: 2019
+  venue: Field Crops Research
+  url: https://doi.org/10.1016/j.fcr.2019.02.001
+  doi: 10.1016/j.fcr.2019.02.001
+- title: The Quantitative Genetic Control of Root Architecture in Maize
+  authors: Bray, A. L. & Topp, C. N.
+  year: 2018
+  venue: Plant and Cell Physiology
+  url: https://doi.org/10.1093/pcp/pcy141
+  doi: 10.1093/pcp/pcy141
+- title: The persistent homology mathematical framework provides enhanced genotype-to-phenotype associations for plant morphology
+  authors: Li, M., Frank, M. H., Coneva, V., Mio, W., Chitwood, D. H. & Topp, C. N.
+  year: 2018
+  venue: Plant Physiology
+  url: https://doi.org/10.1104/pp.18.00104
+  doi: 10.1104/pp.18.00104
+- title: 'Topological data analysis as a morphometric method: using persistent homology to demarcate a leaf morphospace'
+  authors: Li, M., An, H., ... Topp, C. N., Deynze, A. V., Zhang, K., Zhu, L., Zink, B. M. & Chitwood D. H.
+  year: 2018
+  venue: Frontiers In Plant Science
+  url: https://doi.org/10.3389/fpls.2018.00553
+  doi: 10.3389/fpls.2018.00553
+- title: A new data analysis pipeline allowing the topological analysis of plant root systems
+  authors: Delory, B. M., Li, M., Topp, C. N. & Lobet, G.
+  year: 2018
+  venue: F1000Res
+  url: https://doi.org/10.12688/f1000research.13541.1
+  doi: 10.12688/f1000research.13541.1
+- title: 'Morphological Plant Modeling: Unleashing Geometric and Topological Potential within the Plant Sciencess'
+  authors: Bucksch, A., Atta-Boateng, A., Azihou, A. F., ... Sparks, E. E, Topp, C. N., Williams, J. H., & Chitwood, D. H.
+  year: 2017
+  venue: Frontiers in plant science
+  url: https://doi.org/10.3389/fpls.2017.00900
+  doi: 10.3389/fpls.2017.00900
+- title: Persistent homology and the branching topologies of plants
+  authors: Li, M., Duncan, K., Topp, C. N. & Chitwood, D. H.
+  year: 2017
+  venue: American Journal of Botany
+  url: https://doi.org/10.3732/ajb.1700046
+  doi: 10.3732/ajb.1700046
+- title: Whole‐Plant Manual and Image‐Based Phenotyping in Controlled Environments
+  authors: Agnew, E., Bray, A., Floro, E., Ellis, N., Gierer, J., Lizárraga, C., O'Brien, D., Wiechert, M., Mockler, T. C., Shakoor, N., & Topp, C. N.
+  year: 2017
+  venue: Current Protocols in Plant Biology
+  url: https://doi.org/10.1002/cppb.20044
+  doi: 10.1002/cppb.20044
+- title: The quest for understanding phenotypic variation via integrated approaches in the field environment
+  authors: Pauli, D., Chapman, S. C., Bart, R., Topp, C. N., Lawrence-Dill, C. J., Poland, J., & Gore, M. A.
+  year: 2017
+  venue: Plant Physiology
+  url: https://doi.org/10.1104/pp.16.005924
+  doi: 10.1104/pp.16.005924
+- title: 'archiDART: an R package for the automated computation of plant root architectural traits'
+  authors: Delory, B. M., Baudson, C., Brostaux, Y., Lobet, G., du Jardin, P., Pagès, L. & Delaplace, P.
+  year: 2016
+  venue: Plant and Soil
+  url: https://doi.org/10.1007/s11104-015-2673-4
+  doi: 10.1007/s11104-015-2673-4
+- title: 'Hope in change: the role of root plasticity in crop yield stability'
+  authors: Topp, C. N.
+  year: 2016
+  venue: Plant Physiology
+  url: https://doi.org/10.1104/pp.16.01257
+  doi: 10.1104/pp.16.01257
+- title: How can we harness quantitative genetic variation in crop root systems for agricultural improvement?
+  authors: Topp, C. N., Bray, A. L., Ellis, N. A. & Liu, Z.
+  year: 2016
+  venue: Journal of Integrative Plant Biology
+  url: https://doi.org/10.1111/jipb.12470
+  doi: 10.1111/jipb.12470
+- title: 'Digital imaging of root traits (DIRT): a high-throughput computing and collaboration platform for field-based root phenomics'
+  authors: Das, A., Schneider, H., Burridge, J., Ascanio, A. K. M., Wojciechowski, T., Topp, C. N., Lynch, J. P., Weitz, J. S. & Bucksch, A.
+  year: 2016
+  venue: Plant Methods
+  url: https://doi.org/10.1186/s13007-015-0093-3
+  doi: 10.1186/s13007-015-0093-3
+- title: 'DynamicRoots: a software platform for the reconstruction and analysis of growing plant roots'
+  authors: Symonova, O., Topp, C. N. & Edelsbrunner, H.
+  year: 2015
+  venue: PLOS One
+  url: https://doi.org/10.1371/journal.pone.0127657
+  doi: 10.1371/journal.pone.0127657
+- title: 'Applying high-throughput phenotyping to plant–insect interactions: picturing more resistant crops'
+  authors: Goggin, F. L., Lorence, A. & Topp, C. N.
+  year: 2015
+  venue: Current Opinion in Insect Science
+  url: https://doi.org/10.1016/j.cois.2015.03.002
+  doi: 10.1016/j.cois.2015.03.002
+- title: Quantitative trait locus mapping reveals regions of the maize genome controlling root system architecture
+  authors: Zurek, P. R., Topp, C. N. & Benfey, P. N.
+  year: 2015
+  venue: Plant Physiology
+  url: https://doi.org/10.1104/pp.114.251751
+  doi: 10.1104/pp.114.251751
+- title: 'Revealing plant cryptotypes: defining meaningful phenotypes among infinite traits'
+  authors: Chitwood, D. H. & Topp, C. N.
+  year: 2015
+  venue: Current Opinion in Plant Biology
+  url: https://doi.org/10.1016/j.pbi.2015.01.009
+  doi: 10.1016/j.pbi.2015.01.009
+- title: 3D phenotyping and quantitative trait locus mapping identify core regions of the rice genome controlling root architecture
+  authors: Topp, C. N., Iyer-Pascuzzi, A. S., Anderson, J. T., Lee, C. R., ... & Benfey, P. N.
+  year: 2013
+  venue: Proceedings of the National Academy of Sciences
+  url: https://doi.org/10.1073/pnas.1304354110
+  doi: 10.1073/pnas.1304354110
+- title: 'GiA Roots: software for the high throughput analysis of plant root system architecture'
+  authors: Galkovskyi, T., Mileyko, Y., Bucksch, A., Moore, B., Symonova, O., Price, C. A., Topp, C. N., ... Benfey, P. N. & Weitz, J. S.
+  year: 2012
+  venue: BMC Plant Biology
+  url: https://doi.org/10.1186/1471-2229-12-116
+  doi: 10.1186/1471-2229-12-116
+- title: Growth control of root architecture
+  authors: Topp, C. N. & Benfey, P. N.
+  year: 2012
+  venue: Plant Biotechnology and Agriculture
+  url: https://doi.org/10.1016/B978-0-12-381466-1.00024-9
+  doi: 10.1016/B978-0-12-381466-1.00024-9
+- title: 'Maize antibody procedures: Immunolocalization and chromatin immunoprecipitation'
+  authors: Li, W., Topp, C. N. & Dawe, R. K.
+  year: 2012
+  venue: Plant Cytogenetics
+  url: https://doi.org/10.1007/978-0-387-70869-0_11
+  doi: 10.1007/978-0-387-70869-0_11
+- title: Distinct influences of tandem repeats and retrotransposons on CENH3 nucleosome positioning
+  authors: Gent, J. I., Schneider, K. L., Topp, C. N., Rodriguez, C., Presting, G. G. & Dawe, R. K.
+  year: 2012
+  venue: Epigenetics & Chromatin
+  url: https://doi.org/10.1186/1756-8935-4-3
+  doi: 10.1186/1756-8935-4-3
+- title: DNA binding of centromere protein C (CENPC) is stabilized by single-stranded RNA
+  authors: Du, Y., Topp, C. N. & Dawe, R. K.
+  year: 2010
+  venue: PLoS Genetics
+  url: https://doi.org/10.1371/journal.pgen.1000835
+  doi: 10.1371/journal.pgen.1000835
+- title: Identification of a maize neocentromere in an oat-maize addition line
+  authors: Topp, C. N., Okagaki, R. J., Melo, J. R., Kynast, R. G., Phillips, R. L. & Dawe, R. K.
+  year: 2009
+  venue: Cytogenetic and Genome Research
+  url: https://doi.org/10.1159/000218128
+  doi: 10.1159/000218128
+- title: Transformation of rice with long DNA-segments consisting of random genomic DNA or centromere-specific DNA
+  authors: Phan, B. H., Jin, W., Topp, C. N., Zhong, C. X., Jiang, J., Dawe, R. K., & Parrott, W. A.
+  year: 2009
+  venue: Transgenic Research
+  url: https://doi.org/10.1007/s11248-006-9041-3
+  doi: 10.1007/s11248-006-9041-3
+- title: Repression of Flowering in Arabidopsis Requires Activation of FLOWERING LOCUS C Expression by the Histone Variant H2A.Z
+  authors: Deal, R. B., Topp, C. N., McKinney, E. C., & Meagher R. B.
+  year: 2007
+  venue: The Plant Cell
+  url: https://doi.org/10.1105/tpc.106.048447
+  doi: 10.1105/tpc.106.048447
+- title: Reinterpreting pericentromeric heterochromatin
+  authors: Topp, C. N. & Dawe R. K.
+  year: 2006
+  venue: Current Opinion in Plant Biology
+  url: https://doi.org/10.1016/j.pbi.2006.09.008
+  doi: 10.1016/j.pbi.2006.09.008
+- title: Centromere-encoded RNAs are integral components of the maize kinetochore
+  authors: Topp, C. N., Zhong, C. X. & Dawe R. K.
+  year: 2004
+  venue: Proceedings of the National Academy of Sciences
+  url: https://doi.org/10.1073/pnas.0407154101
+  doi: 10.1073/pnas.0407154101
+- title: Centromeric retroelements and satellites interact with maize kinetochore protein CENH3
+  authors: Zhong, C. X., Marshall, J. B., Topp, C. N., Mroczek, R., Kato, A., Nagaki, K., Birchler, J. A., Jiang, J. & Dawe R. K.
+  year: 2002
+  venue: The Plant Cell
+  url: https://doi.org/10.1105/tpc.006106
+  doi: 10.1105/tpc.006106
+- title: Integration of the gene for carboxin resistance does not impact the Ustilago maydis–maize interaction
+  authors: Topp, C. N., Ruiz-Herrera, J., Martínez-Espinoza, A. D. & Gold, S. E.
+  year: 2002
+  venue: Current Microbiology
+  url: https://doi.org/10.1007/s00284-001-0076-7
+  doi: 10.1007/s00284-001-0076-7

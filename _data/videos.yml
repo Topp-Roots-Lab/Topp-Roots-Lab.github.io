@@ -1,0 +1,21 @@
+# Vimeo animations shown on the X-ray CT and X-ray microscopy pages.
+# id + hash come from the Vimeo embed link: player.vimeo.com/video/<id>?h=<hash>
+# ratio is the video's height as a percentage of its width.
+xrt:
+  - {id: 779397539, hash: 868093d2ac, ratio: 67.11, title: Excavated maize root crown}
+  - {id: 779397614, hash: 85ae310b5e, ratio: 55.83, title: In-situ maize root, text: "Maize root system that has been computationally segmented from a high resolution scan of roots growing in soil"}
+  - {id: 779397476, hash: b904085bfa, ratio: 74.53, title: Mature maize ear}
+  - {id: 779397646, hash: 5593c5b9cf, ratio: 71.84, title: Sorghum panicle}
+  - {id: 779397447, hash: 46afb5e9b8, ratio: 56.25, title: Fresh bunch of grapes}
+  - {id: 779397571, hash: 8b59319139, ratio: 66.63, title: Fresh bell pepper}
+  - {id: 779397590, hash: 2c02ca6564, ratio: 67.84, title: Halloween pumpkin}
+xrm:
+  - {id: 779391743, hash: 985cf72fdf, ratio: 72, title: Root-microbe colonization, text: "Roots of Brachypodium colonized by Rhizophagus irregularis, contrasted with osmium and imaged by XRM in situ."}
+  - {id: 779396289, hash: e709b47919, ratio: 60.61, title: Carrot root AMF, text: "In vitro carrot root cultures colonized by R. irregularis, contrasted with osmium tetroxide."}
+  - {id: 779396320, hash: 8fb4fe808b, ratio: 71.57, title: Carrot root AMF, text: "In vitro carrot root cultures colonized by R. irregularis, contrasted with Wheat Germ Agglutinin conjugated to 40nm gold particles."}
+  - {id: 779396371, hash: 0bd98d7363, ratio: 59.9, title: Soil aggregate, text: "Multiscale overlaid scans of soil aggregate, part of a project to use X-ray imaging to evaluate pore space from soils under differing management strategies."}
+  - {id: 779396353, hash: 468bb7f0c2, ratio: 56.25, title: Pennycress pod, text: "Low magnification scan of a pennycress pod with overlaid high magnification scan of two developing seeds, with individual cell layers and developing cotyledons visible."}
+  - {id: 779391728, hash: 03cfa89442, ratio: 64.92, title: Arabidopsis flower, text: "Multiscale overlaid scans of Arabidopsis flower with long slender ovary containing multiple ovules, surrounded by pollen-filled anthers."}
+  - {id: 779396396, hash: 79ef2dab80, ratio: 56.25, title: Soybean flower, text: "Multiscale overlaid scans of soybean flower with ovary containing three ovules, surrounded by pollen-containing anthers. Polar nuclei and synergids are visible in the high magnification scan of a single ovule."}
+  - {id: 779396475, hash: a4508c1fba, ratio: 64.96, title: Soybean ovule, text: "Fly-through animation of 2D digital slices through a developing soybean ovule, showing rich cell-level detail."}
+  - {id: 779396452, hash: 88a32c4235, ratio: 80.72, title: Soybean nodule, text: "Multiscale overlaid scans of soybean nodule formed by the nitrogen-fixing bacterium Bradyrhizobium japonicum. Host vascular bundles are evident surrounding the nodule, and the hundreds of bacteroids with bright nuclei are visible."}

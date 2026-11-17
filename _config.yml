@@ -1,0 +1,34 @@
+# Site settings — edit these, then commit. GitHub Pages rebuilds the site automatically.
+title: Topp Roots Lab
+tagline: Root genetics & phenotyping lab
+description: >-
+  The Topp lab at Michigan State University studies root biology with X-ray imaging,
+  phenomics and genetics to enhance sustainable crop production.
+url: https://topp-roots-lab.github.io
+baseurl: "/Topp-Roots-Lab.github.io"
+
+# Contact details used in the header, footer and Join page
+pi_name: Christopher Topp
+email_display: ctopp at msu.edu
+email: ctopp@msu.edu
+institution: Michigan State University
+city: East Lansing
+building: Plant Biology Laboratories
+lab_room: Room S-308
+pi_office: Room S-306
+address: 612 Wilson Road, East Lansing, MI 48824
+map_url: https://www.google.com/maps/search/?api=1&query=Plant+Biology+Laboratories%2C+612+Wilson+Rd%2C+East+Lansing%2C+MI+48824
+twitter_url: https://twitter.com/RootDevo
+scholar_url: https://scholar.google.com/citations?user=-L6lz1IAAAAJ
+github_url: https://github.com/Topp-Roots-Lab
+repo_url: https://github.com/Topp-Roots-Lab/Topp-Roots-Lab.github.io
+
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

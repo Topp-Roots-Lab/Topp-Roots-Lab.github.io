@@ -1,0 +1,18 @@
+# Software tools, shown on the Tools page, the home page and the Tools menu.
+- name: TopoRoot
+  text: Method for computing hierarchy and fine-grained traits of maize roots from X-ray CT images
+  url: https://github.com/Topp-Roots-Lab/TopoRoot
+  image: toporoot-pipeline.png
+- name: 3-D Root Crown Analysis Pipeline
+  text: Pipeline for segmentation of root crowns excavated from field and imaged using Xray CT
+  url: https://github.com/Topp-Roots-Lab/3d-root-crown-analysis-pipeline
+  image: 3d-root-crown-analysis-pipeline.png
+- name: Gia3D
+  menu_name: GiaRoots
+  text: Root3D skeleton trait extraction
+  url: https://github.com/Topp-Roots-Lab/Gia3D
+  image: Gia3D.png
+- name: Root timeseries analysis
+  text: R scripts to analyze and visualize root traits over time from DynamicRoots-generated files
+  url: https://github.com/Topp-Roots-Lab/timeseries_analysis
+  image: timeseries_analysis.png

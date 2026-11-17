@@ -1,0 +1,29 @@
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+    <div>
+      <p class="site-footer__title">{{ site.title }}</p>
+      <p>{{ site.institution }}<br>{{ site.building }}, {{ site.lab_room }}<br>{{ site.address }}<br><a href="{{ site.map_url }}">Get directions</a></p>
+      <p>{{ site.email_display }}</p>
+    </div>
+    <nav aria-label="Site map">
+      <p class="site-footer__title">Site map</p>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        {% for item in site.data.navigation %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div>
+      <p class="site-footer__title">Elsewhere</p>
+      <ul>
+        <li><a href="{{ site.twitter_url }}">Twitter</a></li>
+        <li><a href="{{ site.scholar_url }}">Google Scholar</a></li>
+        <li><a href="{{ site.github_url }}">GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap site-footer__legal">
+    <p>&copy; {{ site.pi_name }}. All rights reserved. Built with Jekyll, hosted on GitHub Pages and maintained by the lab. <a href="{{ site.repo_url }}">Source code</a></p>
+  </div>
+</footer>

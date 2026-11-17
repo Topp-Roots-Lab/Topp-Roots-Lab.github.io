@@ -1,0 +1,22 @@
+# Main menu. Add `children` to give an item a dropdown.
+- title: News
+  url: /news.html
+- title: Research
+  url: /research.html
+  children:
+    - title: Research overview
+      url: /research.html
+    - title: X-ray CT
+      url: /XRT.html
+    - title: X-ray microscopy
+      url: /XRM.html
+- title: Papers
+  url: /publications.html
+- title: Tools
+  url: /tools.html
+- title: Data
+  url: /data.html
+- title: Team
+  url: /lab.html
+- title: Join
+  url: /join.html
