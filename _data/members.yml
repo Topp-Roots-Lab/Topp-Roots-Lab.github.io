@@ -4,6 +4,7 @@
 #
 # To add someone, copy a block and edit it:
 #   name:   full name (required)
+#   pronouns: e.g. "she/her" — only if the person gave them (optional)
 #   role:   job title (required)
 #   joined: year or "August 2023" (optional)
 #   blurb:  one or two sentences on what they do (optional)
@@ -16,7 +17,11 @@
 
 - name: Katherine Naasko
   role: Lab Manager
+  blurb: Soil Science. PhD.
   email: naaskoka@msu.edu
+  photo: katherine-naasko.png
+  link: /profile/katherine-naasko.html
+  link_label: Bio
 
 
 - name: Sourabh Palande
@@ -29,6 +34,9 @@
 
 - name: Javier Martinez Pacheco
   role: Postdoctoral Researcher
+  blurb: Plant Molecular Biology and Biochemistry. PhD.
+  link: /profile/javier-martinez-pacheco.html
+  link_label: Bio
 
 - name: Oluwaseye (Gideon) Oyebode
   role: Postdoctoral Researcher
@@ -58,18 +66,35 @@
   role: Student Research Assistant
 
 - name: Tabitha (Tabby) Bartrum
+  pronouns: she/her
   role: Student Research Assistant
+  blurb: Undergraduate in Horticultural Science and Crop and Soil Science.
+  photo: tabitha-bartrum.png
+  link: /profile/tabitha-bartrum.html
+  link_label: Bio
 
 - name: Addison Simpson
   role: Student Research Assistant
 
 - name: Lilly Stevens
+  pronouns: she/her
   role: Student Research Assistant
+  blurb: Undergraduate in Environmental Soil and Water Sciences.
+  link: /profile/lilly-stevens.html
+  link_label: Bio
 
 - name: Arya Sharma
+  pronouns: she/her
   role: Student Research Assistant
+  photo: arya-sharma.png
+  link: /profile/arya-sharma.html
+  link_label: Bio
 
 - name: Lia Kim
+  pronouns: she/her
   role: Student Research Assistant
+  photo: lia-kim.png
+  link: /profile/lia-kim.html
+  link_label: Bio
 
 

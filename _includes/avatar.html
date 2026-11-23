@@ -1,7 +1,12 @@
-{% comment %}Photo of a person, or their initials when there is no photo. Params: person{% endcomment %}
+{% comment %}Photo of a person, or their initials when there is no photo (or the photo file has not been uploaded to images/headshots/ yet). Params: person{% endcomment %}
 {% assign avatar_name = include.person.name | default: include.person.title %}
+{% assign avatar_file = nil %}
 {% if include.person.photo %}
-<img class="avatar" src="{{ '/images/headshots/' | append: include.person.photo | relative_url }}" alt="{{ avatar_name | escape }}" width="640" height="640" loading="lazy">
+{% assign avatar_path = '/images/headshots/' | append: include.person.photo %}
+{% assign avatar_file = site.static_files | where: "path", avatar_path | first %}
+{% endif %}
+{% if avatar_file %}
+<img class="avatar" src="{{ avatar_path | relative_url }}" alt="{{ avatar_name | escape }}" width="640" height="640" loading="lazy">
 {% else %}
 {% assign avatar_words = avatar_name | split: " " %}
 <div class="avatar avatar--initials" role="img" aria-label="{{ avatar_name | escape }}"><span>{{ avatar_words | first | slice: 0 }}{% if avatar_words.size > 1 %}{{ avatar_words | last | slice: 0 }}{% endif %}</span></div>

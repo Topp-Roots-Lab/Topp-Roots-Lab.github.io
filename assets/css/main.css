@@ -219,6 +219,7 @@ ul[class], ol[class] { list-style: none; padding: 0; margin: 0; }
 @media (max-width: 34rem) { .member-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.75rem 1rem; } }
 .member__photo { display: block; margin-bottom: 0.8rem; text-decoration: none; }
 .member__name { font-size: 1.15rem; margin: 0; }
+.member__pronouns, .page-head__pronouns { font-size: 0.7em; font-weight: 400; white-space: nowrap; opacity: 0.75; }
 .member p { font-size: 0.98rem; line-height: 1.45; margin: 0.2rem 0 0; }
 .member__role { font-family: var(--display); font-weight: 500; }
 .member__blurb { color: var(--muted); }

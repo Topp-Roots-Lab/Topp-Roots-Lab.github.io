@@ -3,6 +3,7 @@
 # (Files starting with an underscore are not published, so this template never shows on the site.)
 layout: profile
 title: Full Name
+pronouns: she/her                  # only if the person gave them — otherwise delete this line
 role: Job title
 joined: 2025
 photo: firstname-lastname.png      # a square image in images/headshots/ — delete this line if there is no photo
