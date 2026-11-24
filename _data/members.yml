@@ -68,18 +68,21 @@
 - name: Tabitha (Tabby) Bartrum
   pronouns: she/her
   role: Student Research Assistant
-  blurb: Undergraduate in Horticultural Science and Crop and Soil Science.
+  #blurb: Undergraduate in Horticultural Science and Crop and Soil Science.
   photo: tabitha-bartrum.png
   link: /profile/tabitha-bartrum.html
   link_label: Bio
 
 - name: Addison Simpson
+  pronouns: she/her
   role: Student Research Assistant
+  link: /profile/addison-simpson.html
+  link_label: Bio
 
 - name: Lilly Stevens
   pronouns: she/her
   role: Student Research Assistant
-  blurb: Undergraduate in Environmental Soil and Water Sciences.
+  #blurb: Undergraduate in Environmental Soil and Water Sciences.
   photo: lilly-stevens.png
   link: /profile/lilly-stevens.html
   link_label: Bio
