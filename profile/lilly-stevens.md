@@ -3,6 +3,7 @@ layout: profile
 title: Lilly Stevens
 pronouns: she/her
 role: Student Research Assistant
+photo: lilly-stevens.png
 permalink: /profile/lilly-stevens.html
 links:
   - label: LinkedIn
