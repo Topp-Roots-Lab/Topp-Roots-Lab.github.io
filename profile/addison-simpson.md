@@ -6,5 +6,5 @@ role: Student Research Assistant
 permalink: /profile/addison-simpson.html
 links:
   - label: LinkedIn
-    url: www.linkedin.com/in/addisonjsimpson
+    url: https://www.linkedin.com/in/addisonjsimpson/
 ---
